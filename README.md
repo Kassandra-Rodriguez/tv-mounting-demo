@@ -15,7 +15,7 @@ Pages: single `index.html`, `styles.css?v=1`, `script.js?v=1`. Bump the `?v=` nu
 - "Same day, most calls" and "usually within the hour" wording
 - Hours, email, street address (none shown)
 - "Up to 100 inches" claim is based on the 100 inch job photo
-- No customer review text is shown, only the real Facebook stat. Add real quotes if they send them.
+- Six sample reviews (visibly labeled "Sample review", with a note under them) were written for the concept. Replace with real customer quotes before launch.
 - Quote form does not send yet (demo confirmation only)
 
 ## Mobbin references used

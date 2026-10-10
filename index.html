@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;1,700;1,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=1">
+<link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
 
@@ -279,21 +279,48 @@
 
 <!-- ══ REVIEWS ══ -->
 <section class="reviews" id="reviews">
-  <div class="wrap reviews-grid">
-    <div class="rev-copy reveal">
-      <p class="kicker" data-en="What El Paso says" data-es="Lo que dice El Paso">What El Paso says</p>
-      <h2 data-en="96% recommend us." data-es="El 96% nos recomienda.">96% recommend us.</h2>
-      <p data-en="75 customer reviews on Facebook and a feed full of finished walls. See for yourself, then book your spot." data-es="75 reseñas de clientes en Facebook y un perfil lleno de paredes terminadas. Míralo tú mismo y reserva tu lugar.">75 customer reviews on Facebook and a feed full of finished walls. See for yourself, then book your spot.</p>
-      <div class="rev-cta">
-        <a class="btn btn-solid" href="https://www.facebook.com/tvmountingelpaso/" target="_blank" rel="noopener" data-en="Read our reviews" data-es="Leer reseñas">Read our reviews</a>
-        <a class="btn btn-ghost" href="#quote" data-en="Get a free quote" data-es="Cotización gratis">Get a free quote</a>
-      </div>
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="kicker" data-en="96% recommend us" data-es="El 96% nos recomienda">96% recommend us</p>
+      <h2 data-en="Neighbors say it best." data-es="Los vecinos lo dicen mejor.">Neighbors say it best.</h2>
+    </header>
+
+    <div class="review-marquee">
+    <div class="review-grid" id="reviewGrid">
+      <blockquote class="review reveal">
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <p data-en="“We had a 75 inch TV sitting on the floor for a month. They came the same afternoon, hid every wire and it looks like it was built into the wall.”" data-es="“Teníamos una TV de 75 pulgadas en el piso desde hace un mes. Vinieron la misma tarde, escondieron todos los cables y se ve como si fuera parte de la pared.”">“We had a 75 inch TV sitting on the floor for a month. They came the same afternoon, hid every wire and it looks like it was built into the wall.”</p>
+        <footer>Marisol G. <small>· <span data-en="Sample review" data-es="Reseña de ejemplo">Sample review</span></small></footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <p data-en="“Clear price over text before they showed up, and they stuck to it. On time, polite and cleaned up after. Easy five stars.”" data-es="“Precio claro por mensaje antes de llegar y lo respetaron. Puntuales, amables y dejaron todo limpio. Cinco estrellas.”">“Clear price over text before they showed up, and they stuck to it. On time, polite and cleaned up after. Easy five stars.”</p>
+        <footer>Daniel R. <small>· <span data-en="Sample review" data-es="Reseña de ejemplo">Sample review</span></small></footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <p data-en="“Our TV above the fireplace was a worry for me. They checked the wall, did it right and the whole room looks finished now.”" data-es="“Me preocupaba la TV sobre la chimenea. Revisaron la pared, lo hicieron bien y toda la sala se ve terminada.”">“Our TV above the fireplace was a worry for me. They checked the wall, did it right and the whole room looks finished now.”</p>
+        <footer>Patricia V. <small>· <span data-en="Sample review" data-es="Reseña de ejemplo">Sample review</span></small></footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <p data-en="“Mounted the TV on our covered patio and set up the soundbar too. It has survived the sun and our weekend barbecues. Very happy.”" data-es="“Montaron la TV en nuestro patio techado e instalaron la barra de sonido. Ha aguantado el sol y nuestras carnes asadas. Muy contentos.”">“Mounted the TV on our covered patio and set up the soundbar too. It has survived the sun and our weekend barbecues. Very happy.”</p>
+        <footer>Andrea T. <small>· <span data-en="Sample review" data-es="Reseña de ejemplo">Sample review</span></small></footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <p data-en="“Texted a photo of my wall in the morning and had a quote in minutes. TV was up by dinner. Cannot beat that.”" data-es="“Mandé una foto de mi pared en la mañana y me cotizaron en minutos. La TV estaba lista para la cena. Imposible mejor.”">“Texted a photo of my wall in the morning and had a quote in minutes. TV was up by dinner. Cannot beat that.”</p>
+        <footer>Luis M. <small>· <span data-en="Sample review" data-es="Reseña de ejemplo">Sample review</span></small></footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <p data-en="“Ceiling speakers, TV and a clean cable run in one visit. The crew explained everything and the sound is amazing.”" data-es="“Bocinas de techo, TV y cables escondidos en una sola visita. Explicaron todo y el sonido es increíble.”">“Ceiling speakers, TV and a clean cable run in one visit. The crew explained everything and the sound is amazing.”</p>
+        <footer>Roberto C. <small>· <span data-en="Sample review" data-es="Reseña de ejemplo">Sample review</span></small></footer>
+      </blockquote>
     </div>
-    <div class="rev-points">
-      <div class="rev-point reveal"><b>1</b><div><h3 data-en="They show up when they say" data-es="Llegan cuando dicen">They show up when they say</h3><p data-en="Pick a time, get a text when we are on the way." data-es="Elige la hora y te escribimos cuando vamos en camino.">Pick a time, get a text when we are on the way.</p></div></div>
-      <div class="rev-point reveal"><b>2</b><div><h3 data-en="You see the price first" data-es="Ves el precio primero">You see the price first</h3><p data-en="A clear quote before we pick up a drill." data-es="Una cotización clara antes de tomar el taladro.">A clear quote before we pick up a drill.</p></div></div>
-      <div class="rev-point reveal"><b>3</b><div><h3 data-en="We leave it spotless" data-es="Lo dejamos impecable">We leave it spotless</h3><p data-en="Boxes gone, dust cleaned, TV working before we leave." data-es="Sin cajas, sin polvo y con la TV funcionando antes de irnos.">Boxes gone, dust cleaned, TV working before we leave.</p></div></div>
     </div>
+    <p class="also" style="font-size:.85rem" data-en="Sample reviews written for this concept. Replace with real customer reviews before launch." data-es="Reseñas de ejemplo escritas para este concepto. Reemplazar con reseñas reales antes de lanzar.">Sample reviews written for this concept. Replace with real customer reviews before launch.</p>
+    <p class="rev-link"><a class="btn btn-ghost-dark" href="https://www.facebook.com/tvmountingelpaso/" target="_blank" rel="noopener" data-en="See the real reviews on Facebook" data-es="Ver reseñas reales en Facebook">See the real reviews on Facebook</a></p>
   </div>
 </section>
 
@@ -407,6 +434,6 @@
   <a class="btn btn-ghost" href="sms:+19152703017" data-en="Text a photo" data-es="Mandar foto">Text a photo</a>
 </div>
 
-<script src="script.js?v=1"></script>
+<script src="script.js?v=2"></script>
 </body>
 </html>

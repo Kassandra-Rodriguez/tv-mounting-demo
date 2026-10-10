@@ -103,6 +103,14 @@
   document.addEventListener('click', e => { if (!e.target.closest('.site-header')) setMenu(false); });
   matchMedia('(min-width:981px)').addEventListener('change', e => { if (e.matches) setMenu(false); });
 
+  /* ── reviews: duplicate cards so the phone marquee loops seamlessly ── */
+  const grid = document.getElementById('reviewGrid');
+  [...grid.children].forEach(card => {
+    const c = card.cloneNode(true);
+    c.classList.remove('reveal'); c.classList.add('in', 'review-clone'); c.setAttribute('aria-hidden', 'true');
+    grid.appendChild(c);
+  });
+
   /* ── quote form: validate, then show a demo confirmation ── */
   const form = document.getElementById('quoteForm'), msg = document.getElementById('formMsg');
   form.addEventListener('submit', e => {

@@ -6,7 +6,7 @@ Pages: single `index.html`, `styles.css?v=1`, `script.js?v=1`. Bump the `?v=` nu
 
 ## Real, from their Facebook (facebook.com/tvmountingelpaso)
 - Name, tagline, phone (915) 270-3017, logo, TikTok @tvmountingep, beacons.ai/tvmountingep link in bio
-- 96% recommend from 75 reviews, about 4K followers (Facebook, not Google)
+- 75 Facebook reviews and about 4K followers (their Facebook shows 96% recommend, left off the page on purpose)
 - All photos are their own job photos (`outdoor.jpg` and `install100.jpg` are crops of social graphics with the captions cut off)
 
 ## Placeholders to confirm with the owner
